@@ -1,0 +1,16 @@
+body{
+    margin: 35px;
+    background-color: honeydew;
+
+    
+}
+#imgSram{
+    width: 250px;
+    height: 250px;
+}
+#changesOfTheRam,  th, td {
+    margin: 15px;
+    padding: 25px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
