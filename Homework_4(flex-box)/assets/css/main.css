@@ -152,7 +152,7 @@ img {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	height: 25vh;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	background-color: aquamarine;
@@ -164,6 +164,6 @@ img {
 	flex-basis: 300px;
 	height: 21vh;
 	max-height: 21vh;
-	padding-top: 7vh;
+	padding-top: 7vh; 
 	margin:0 25px;
 }
