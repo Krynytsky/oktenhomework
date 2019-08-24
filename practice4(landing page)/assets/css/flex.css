@@ -1,0 +1,119 @@
+/* describe adisplay of the PARENT flex block */
+.d-flex {
+    display: flex;
+}
+/* ##########################-#END#-########################### */
+
+/* ### Properties for the parent block### */
+
+
+/*describe direction of the flex items in the parent block */
+.d-flex--row {
+    flex-direction: row;
+}
+
+.d-flex--col {
+    flex-direction: column;
+}
+/* ##########################-#END#-########################### */
+
+/* describe wrap of the flex items in the parent block*/
+.d-flex--wrap {
+    flex-wrap: wrap;
+}
+/* ##########################-#END#-########################### */
+
+/* horizontal positioning of the flex items in the parent block */
+.d-flex--justify-start{
+    justify-content: flex-start;
+}
+
+.d-flex--justify-end{
+    justify-content: flex-end;
+}
+
+.d-flex--justify-center{
+    justify-content: center;
+}
+
+.d-flex--justify-around{
+    justify-content: space-around;
+}
+
+.d-flex--justify-between{
+    justify-content: space-between;
+}
+/* ##########################-#END#-########################### */
+
+/* vertical positioning of the flex items in the parent block */
+.d-flex--align-start {
+    align-items: flex-start;
+}
+
+.d-flex--align-end {
+    align-items: flex-end;
+}
+
+.d-flex--align-center {
+    align-items: center
+}
+
+.d-flex--align-baseline {
+    align-items: baseline;
+}
+
+/* ### base properties for the CHILD flex item ### */
+
+
+/* width of the flex item */
+.f-item--basis-25 {
+    flex-basis: 25%;
+}
+
+.f-item--basis-50 {
+    flex-basis: 50%;
+}
+
+.f-item--basis-75 {
+    flex-basis: 75%;
+}
+
+.f-item--basis-100 {
+    flex-basis: 100%;
+}
+/* ##########################-#END#-########################### */
+
+/* to solve problem with uncowered space in flex container we use flex-grow */
+
+.f-item--shrink-1 {
+    flex-shrink: 1;
+}
+
+.f-item--shrink-2 {
+    flex-shrink: 2;
+}
+
+.f-item--shrink-3 {
+    flex-shrink: 3;
+}
+
+.f-item--shrink-4 {
+    flex-shrink: 4;
+}
+
+
+.f-item--grow-1 {
+    flex-grow: 1;
+}
+
+.f-item--grow-2 {
+    flex-grow: 2;
+}
+
+.f-item--grow-3 {
+    flex-grow: 3;
+}
+
+.f-item--grow-4 {
+    flex-grow: 4;
+}
