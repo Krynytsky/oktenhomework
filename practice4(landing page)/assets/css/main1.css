@@ -95,6 +95,7 @@ body {
 	width: 75px;
 	height: 75px;
 	border-radius: 100%;
+	transition: all  0.5s ease;
 }
 
 .top-block__btn:hover {
@@ -103,6 +104,7 @@ body {
 	-webkit-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
+	margin-bottom: 5px;
 }
 	.down-symbol {
 		font-size: 70px;
@@ -158,11 +160,13 @@ body {
 	padding: 0 1rem;
 	border-radius: 15%;
 	background-color: #d8dfe3;
+	transition: all  0.4s ease;
 }
 	.products--bg:hover {
 		-webkit-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 		box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
+		margin: 20px;
 	}
 
 .products--height {
@@ -171,4 +175,32 @@ body {
 
 .price__btn {
 	width: 25vw;
+}
+/* contact block */
+.contact {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-color: #f1f0ec;
+	text-align: center;
+}
+
+.contact__form {
+	width: 100%;
+	max-width: 320pxpx;
+	background-color: #d8dfe3;
+	margin-right: 25rem;
+	padding: 5rem;
+	border: 2px solid black;
+	border-radius: 25%;
+}
+	.contact__form:hover {
+		-webkit-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
+		margin: 20px;
+	}
+
+.contact__btn {
+	width: 100%;
 }
