@@ -10,42 +10,55 @@
 	padding: 0;
 }
 body {
-	font-size: 16px;
+	/* font-size: 14px; */
 	font-family: Arial, Helvetica, sans-serif;
+	width: 1200px;
 }
 /* top block */
 .top-block, .about, .price {
-	position: relative;
+	
 	width: 100vw;
 	height: 100vh;
 }
 
 .top-block__wallpaper {
 	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	background: url("../../img/header_background.jpg") no-repeat center;
-	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background: url("../../img/logo.png") no-repeat right;
+	background-size: 1180px;
 	opacity: 0.9;
 	z-index: -1;
 	filter: blur(5px);
 }
 
 .top-block__header {
-	height: 25vh;
+	height: 15%;
 	border-bottom: 2px solid #000;
 	background-color: #dde5e9;
 	opacity: .8;
 }
 
 .header-item {
-	width: 100vw;
-	padding: 2rem 2rem;
+	height: 15%;
+	padding: 3rem 2rem;
 }
 
 .logo-img {
+	width: 300px;
+	width: 300px;
 	max-width: 300px;
+	transition: all 0.25s linear;
+	animation: spin 2s ease-in-out;
 }
+	@keyframes spin{
+		from {
+			transform:rotate(720deg);
+		 }
+		to {
+			top: 0px; 
+		}
+	}
 
 
 .top-block__title { 
@@ -55,7 +68,7 @@ body {
 	z-index: -1;
 }
 
-.header-item__nav,.top-nav-ul {
+.header-item__nav .top-nav-ul {
 	text-decoration: none;
 }
 
@@ -105,9 +118,10 @@ body {
 	-moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
 	margin-bottom: 5px;
+
 }
 	.down-symbol {
-		font-size: 70px;
+		font-size: 65px;
 		color: #000;
 	}
 /* about block */
@@ -158,15 +172,16 @@ body {
 
 .products--bg {
 	padding: 0 1rem;
+	cursor: pointer;
 	border-radius: 15%;
-	background-color: #d8dfe3;
-	transition: all  0.4s ease;
+	background-color: rgb(216, 223, 227);
+	transition: all  0.250s ease;
 }
 	.products--bg:hover {
-		-webkit-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-		-moz-box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-		box-shadow: 0px 0px 37px 11px rgba(0,0,0,0.75);
-		margin: 20px;
+		-webkit-box-shadow: 0px 0px 37px 11px rgba(159, 160, 161, 0.75);
+		-moz-box-shadow: 0px 0px 37px 11px rgba(159, 160, 161, 0.75);
+		box-shadow: 0px 0px 37px 11px rgba(159, 160, 161, 0.75);
+		margin: 2rem;
 	}
 
 .products--height {
@@ -181,8 +196,19 @@ body {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
-	background-color: #f1f0ec;
+	/* background-color: #f1f0ec; */
 	text-align: center;
+}
+
+.contact__wallpaper {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: url("../../img/logo.png") no-repeat right;
+	background-size: 500px;
+	opacity: 0.9;
+	z-index: -1;
+	filter: blur(5px);
 }
 
 .contact__form {
@@ -203,4 +229,11 @@ body {
 
 .contact__btn {
 	width: 100%;
+}
+
+.footer {
+	height: 15%;
+	border-top: 2px solid #000;
+	background-color: #dde5e9;
+	opacity: .8;
 }

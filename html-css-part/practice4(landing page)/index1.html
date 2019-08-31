@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/footer_template.css">
+    <!-- <link rel="stylesheet" href="assets/css/media.css"> -->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/flex.css">
     <link rel="stylesheet" href="assets/css/text.css">
@@ -13,12 +15,12 @@
 <body>
     <!--start of the "top" block
     ###############################################################################################-->
-<header class="top-block d-flex d-flex--col d-flex--justify-between " id="top">
+<header class="top-block d-flex d-flex--col d-flex--justify-between" id="top">
     <div class="top-block__wallpaper"></div>
 
      <!-- header of the top block -->
-    <div class="top-block__header">
-        <div class="header-item  d-flex d-flex--row d-flex--align-center d-flex--justify-between">
+    <div class="top-block__header  ">
+        <div class="header-item  d-flex d-flex--row d-flex--md-col d-flex--align-center d-flex--justify-between">
 
             <div class="header-item__logo f-item--basis-25">
                 <!-- Add some logo here -->
@@ -27,7 +29,7 @@
 
                 <!-- top navigation menu -->
             <div class="header-item__nav bold-600 f-item--basis-50 ">
-                <ul class="top-nav-ul decor-none d-flex d-flex--row d-flex--justify-between d-flex--align-center d-flex--wrap">
+                <ul class="top-nav-ul decor-none d-flex d-flex--row d-flex--md-col d-flex--justify-between d-flex--align-center d-flex--wrap">
                     <li class="top-nav-ul__li-about f-item--basis-25 f-item--shrink-1"><a href="#about" class="decoration--none"><span class="uppercase black ">about us</span></a></li>
                     <li class="top-nav-ul__li-price f-item--basis-25"><a href="#price" class="decoration--none"><span class="uppercase black">price</span></a></li>
                     <li class="top-nav-ul__li-contact f-item--basis-25"><a href="#contact" class="decoration--none"><span class="uppercase black">contact us</span></a></li>
@@ -62,7 +64,7 @@
                 
                 You don't have to take our word for it, we can provide customer testimonials and we are happy to arrange for any serious prospective clients to contact our existing clients to discuss what it is like to work with us.</p>
     </div>
-    <div class="about__btn d-flex d-flex--row d-flex--align-center d-flex--justify-center">
+    <div class="about__btn d-flex d-flex--md-col d-flex--align-center d-flex--justify-center">
         <a href="#top" class=" btn--theme btn--center">top</a>
         <a href="#price" class="btn--theme btn--center">next</a>
     </div>
@@ -73,7 +75,7 @@
 <article class="price d-flex d-flex--col d-flex--align-center d-flex--justify-around" id="price">
 <div class="price__wallpaper"></div>
     <div class="price__title uppercase bold-900"><h2>Web Development Company</h2></div><!---->
-    <div class="products uppercase d-flex d-flex--row d-flex--align-center d-flex--justify-around">
+    <div class="products uppercase d-flex d-flex--md-col d-flex--align-center d-flex--justify-around">
         <div class="products__website products--bg d-flex d-flex--col d-flex--justify-around products--height f-item--basis-25 ">
             <h3 class="website">website design & development</h3>
             <p class="website__text capitalize">Designing successful websites takes planning and experience, and we have plenty.</p>
@@ -102,7 +104,8 @@
 <!-- ============================================================================================== -->
 <!-- start of the section "contact us"
 ###################################################################################################-->
-<article class="contact d-flex d-flex--col d-flex--align-center d-flex--justify-around" id="contact">
+<article class="contact d-flex d-flex--col  d-flex--justify-around" id="contact">
+    <div class="contact__wallpaper"></div>
     <div class="contact__title">
         <h2 class="uppercase">Contact us</h2>
         <p>For any general inquiries, please fill in the following contact form:</p>
@@ -114,7 +117,7 @@
                 <input type="text" name="name" id="name" placeholder="name" >
                 <input type="email" name="email" id="email" placeholder="email">
                 <input type="text" name="sudject" id="subject" placeholder="your needs">
-                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <textarea name="input" id="massage" cols="20" rows="10" required></textarea>
                 <input type="submit" name="submit" id="submit" placeholder="Send">
             </form>
         </div>
@@ -124,23 +127,46 @@
              <p>phone: +380675949837</p>
              <p>e-mail: yuri.krynytsky@gmail.com</p>
         </div>
-        
+
     </div>
-    <footer class="bottom-block">
-        <div class="bottom-block__copywrite">
-
-        </div>
-
-        <div class="bottom-block__social">
-            
-        </div>
-
-    </footer>
-
-</article>
 <!-- ============================================================================================== -->
 <!-- start of the footer
 ###################################################################################################-->
+     <!-- footer block -->
+     <footer class="footer">
+        <div class="footer__copywrite">
+            <h3 class="copywrite__text">&copy;2019 All rights reserved.</h3>
+        </div>
+
+        <div class="social">
+                <div class="social__title"><h3>social networks:</h3></div>
+                <!--=============================================================================== -->
+                <div class="social__item">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img src="./img/social_icons/social_black/facebook_black.png" alt="facebook"
+                    class="social__img">
+                  </a>
+                </div>
+                <!--=============================================================================== -->
+                <div class="social__item">
+                  <a href="https://github.com/" target="_blank">
+                    <img src="./img/social_icons/social_black/github_black.png" alt="github"
+                    class="social__img">
+                  </a>
+                </div>
+                <!--=============================================================================== -->
+                <div class="social__item">
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./img/social_icons/social_black/instagram_black.png" alt="instagram"
+                    class="social__img" >
+                  </a>
+                </div>
+                <!-- you can add some social network here -->
+        </div>
+
+    </footer>
+</article>
+
 
     
 </body>
