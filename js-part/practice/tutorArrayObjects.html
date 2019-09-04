@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	 <script>
+		
+		// var students = [];
+		// students[0] = "Hya";
+		// students[1] = 'Anton';
+		// students[2] = 'Anton1';
+		// students[3] = 'Anton2';
+		// students[4] = 'Anton3';
+
+		// Array.prototype.forEachCustom = function(){
+		// 	for(let i = 0; i < this.length; ++i){
+		// 		console.log(this[i]);
+		// 	}
+		// }
+
+		// students.forEachCustom();
+
+
+		// console.error('Foreach');
+		// students.forEach(function(element) {
+		//   console.log(element);
+		// });
+
+		// console.error('For');
+		// for(let i = 0; i < students.length; ++i){
+		// 	console.log(students[i]);
+		// }
+
+		// console.error('while');
+		// let y = 0;
+		// while (y < students.length) {
+		// 	console.log(students[y]);
+		// 	y++;
+		// }
+
+		// console.error('Do while');
+		// y = 0;
+		// do {
+		// 	console.log(students[y]);
+		// 	y++;
+		// } while(y < students.length);
+
+		// let matrixRows = [];
+		// let matrixCels = [];
+
+		// let matrix = [,];
+
+		// for(let i = 0; i < 10; ++i){
+		// 	matrixRows = []
+		// 	for(let j = 0; j < 10; ++j){
+		// 		matrixRows.push(i.toString() + " " + j.toString());
+		// 	}
+		// 	matrix.push(matrixRows);
+		// }
+
+		// for(let i = 0; i < 10; ++i){
+		// 	for(let j = 0; j < 10; ++j){
+		// 		matrix[i,j] = i.toString() + " " + j.toString();
+		// 	}
+		// }
+
+		// for(let i = 0; i < 10; ++i){
+		// 	for(let j = 0; j < 10; ++j){
+		// 		console.log(matrix[i,j]);
+		// 	}
+		// }		
+
+	</script> -->
+
+	<script>
+		// let Figure = {
+		// 	name: "Triangle",
+		// 	color: "Orange",
+		// 	size: "20x15"
+
+		// }
+
+
+		function Figure(_name, _color, _size){
+			this.name = _name;
+			this.color = _color;
+			this.size = _size;
+
+			this.outputProperty = function(){
+				console.log(this.name  + ' ' + this.color + " " + this.size);
+			}
+		}
+
+
+		Figure.prototype.example = function(){
+			console.log("This is " + this.name + " year");
+		};
+
+
+
+		let Square = new Figure("Square", "blue", "20x112");
+
+
+		// console.log(Square);
+
+		// Square.outputProperty();
+		Square.example();
+	</script>
+
+	<!-- <script>
+		let num = 1234;
+		let sum = 0;
+		// return 5
+
+		
+		while(num > 0){
+			sum += parseInt(num) % 2;
+			num = parseInt(num / 2);
+		}	    
+
+		console.log(sum + " sum"); -->
+	</script>
+
+</head>
+<body>
+	
+</body>
+</html>

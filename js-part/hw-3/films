@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // array of films with objects in each ekement
+         
+  let filmsArr =
+
+ Втеча з Шоушенка 	The Shawshank Redemption 	1994 	9,2 	Френк Дарабонт
+2 	Хрещений батько 	The Godfather 	1972 	9,2 	Френсіс Форд Коппола
+3 	Хрещений батько 2 	The Godfather: Part II 	1974 	9,0 	Френсіс Форд Коппола
+4 	Темний лицар 	The Dark Knight 	2008 	9,0 	Крістофер Нолан
+5 	12 розгніваних чоловіків 	12 Angry Men 	1957 	8,9 	Сідні Люмет
+6 	Список Шиндлера 	Schindler's List 	1993 	8,9 	Стівен Спілберг
+7 	Володар Перснів: Повернення короля 	The Lord of the Rings: The Return of the King 	2003 	8,9 	Пітер Джексон
+8 	Кримінальне чтиво 	Pulp Fiction 	1994 	8,9 	Квентін Тарантіно
+9 	Хороший, поганий, злий 	Il buono, il brutto, il cattivo 	1966 	8,8 	Серджо Леоне
+10 	Бійцівський клуб 	Fight Club 	1999 	8,8 	Девід Фінчер
+11 	Володар Перснів: Братерство Персня 	The Lord of the Rings: The Fellowship of the Ring 	2001 	8,8 	Пітер Джексон
+12 	Форрест Ґамп 	Forrest Gump 	1994 	8,7 	Роберт Земекіс
+13 	Зоряні війни. Епізод V. Імперія завдає удару у відповідь 	Star Wars: Episode V — The Empire Strikes Back 	1980 	8,7 	Ірвін Кершнер
+14 	Початок 	Inception 	2010 	8,7 	Крістофер Нолан
+15 	Володар Перснів: Дві вежі 	The Lord of the Rings: The Two Towers 	2002 	8,7 	Пітер Джексон
+16 	Пролітаючи над гніздом зозулі 	One Flew Over the Cuckoo's Nest 	1975 	8,7 	Мілош Форман
+17 	Славні хлопці 	Goodfellas 	1990 	8,7 	Мартін Скорсезе
+18 	Матриця 	The Matrix 	1999 	8,6 	брати Ваховські
+19 	Сім самураїв 	七人の侍 	1954 	8,6 	Акіра Куросава
+20 	Місто Бога 	City of God 	2002 	8,6 	Фернанду Мейрелліш 
+
+
+
+
+        
+        
+        
+    </script>
+</body>
+</html>

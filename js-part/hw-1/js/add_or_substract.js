@@ -20,5 +20,5 @@ let b = prompt("введіть змінну b:");
     if(a<=1 && b>=3){
       alert(parseInt(a) + parseInt(b)); //use parseInt for correct addition of two numbers
     }else{
-       alert( "різниця a-b=", a - b);//substraction doing well by default
+       alert( a - b);//substraction doing well by default
     }
